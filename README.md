@@ -18,13 +18,18 @@ data
 |   +-- image_class_0_0.jpg
 |   +-- image_class_0_1.jpg
 |   +-- image_class_0_2.jpg
-+-- image_class_0
-|   +-- image_class_0_0.jpg
-|   +-- image_class_0_1.jpg
-|   +-- image_class_0_2.jpg
++-- image_class_1
+|   +-- image_class_1_0.jpg
+|   +-- image_class_1_1.jpg
+|   +-- image_class_1_2.jpg
 ```
 
 3. Put pretrained text-detector model at 'pretrained-models/text_detection_pretrained_model/craft_mlt_25k.pth'
 4. Put pretrained text-recognition model at 'pretrained-models/text-recognition/TPS-ResNet-BiLSTM-Attn.pth'
 5. run `$python text_detect_and_recognize.py`
 6. 'ocr_with_bbox.json' will have detected text with normalized bbox and confidence score
+
+
+### TODO
+1. Clean the code
+2. LICENSE ?
